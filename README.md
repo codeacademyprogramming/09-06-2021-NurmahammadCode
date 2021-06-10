@@ -1,67 +1,46 @@
-# PYP / Day - 28
+# Getting Started with Create React App
 
-Table of Contents :
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. [Prerequisites](#prerequisites)
-1. [Lessons topics](#lessons-topics)  
-1. [Assigment](#assigment)
-1. [Resources](#resources)
+## Available Scripts
 
----
-## Prerequisites
+In the project directory, you can run:
 
-Measures to take before starting
+### `yarn start`
 
-* Install [VS Code](https://code.visualstudio.com/download) on your local machine
-* Setup [Github Desktop](https://desktop.github.com/) on your local machine
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Assigment:
+### `yarn test`
 
-MUSIC PLAYER
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Required to use Typescript, Express, MongoDB
+### `yarn build`
 
-Create a REST API for music player service:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Entities you have to create C.R.U.D for:
-Songs
-Name, artists, upload date, media url (e.g: youtube link)
-Playlists
-Name, creation date, author
-User can add/remove song to the playlist
-Validate if song exists before adding it to the playlist
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn eject`
 
-For the demonstration purposes REST API won’t check for the permissions
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-![image](https://user-images.githubusercontent.com/19148254/121011247-74ebac00-c7a7-11eb-88fb-b0c8f0fbeb9c.png)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```typescript 
-{
-  songs: [
-    {type:string, required: true}
-  ]
-}
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-++++++++++++++++
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Create UI for the previous task
+## Learn More
 
-++++++++++++++++
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Add authentication as below:
-1. There should be login and signup pages
-2. Every user has his/her own playlist
-3. User shouldn't be able to see authenticated routes
-
----
-
-## Resources:
-
-- https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/#:~:text=REST%20determines%20how%20the%20API,link%20to%20a%20specific%20URL.
-- https://scotch.io/bar-talk/a-quick-understanding-of-rest
-- https://www.infoq.com/articles/rest-introduction/
+To learn React, check out the [React documentation](https://reactjs.org/).
